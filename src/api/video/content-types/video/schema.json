@@ -18,7 +18,7 @@
     "title": {
       "type": "string"
     },
-    "videoLink": {
+    "videoMedia": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -33,6 +33,12 @@
     },
     "featuredVideo": {
       "type": "boolean"
+    },
+    "videoURL": {
+      "type": "string"
+    },
+    "thumbnailURL": {
+      "type": "string"
     }
   }
 }
